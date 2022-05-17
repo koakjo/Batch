@@ -14,11 +14,11 @@ import lombok.Data;
 @Data
 @Component
 public class AsyncExec {
-	
+
 	@Id
 	@Column(name = "ID", nullable = false)
 	private long id;
-	
+
 	@Column(name = "STATUS", nullable = false)
 	private String status;
 
